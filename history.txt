@@ -1,0 +1,310 @@
+ 1  dir
+    2  cd ~/Documents/
+    3  cd ~
+    4  pwd
+    5  cd ~/Downloads/
+    6  history
+    7  3
+    8  history 3
+    9  cd ~
+   10  cd ~/Downloads/
+   11  cd ~/cd ~/Downloads/
+   12  cd ;
+   13  exit
+   14  ls
+   15  ls -al
+   16  cd
+   17  cd ./Documents/
+   18  cd
+   19  ls -al
+   20  mkdir mygit
+   21  cd mygit/
+   22  git init
+   23  ls -al
+   24  rm -rf .git
+   25  ls -al
+   26  init git
+   27  git init
+   28  history
+   29  24
+   30  history 24
+   31  cd
+   32  mkdir test/
+   33  git init
+   34  rm -rf -.git
+   35  rm -rf .git
+   36  cd test
+   37  git init
+   38  cd ../mygit/
+   39  cd ./.git
+   40  cd ./
+   41  cd
+   42  cd mygit
+   43  cd mygit/
+   44  pwd
+   45  gi config --list
+   46  git config --list
+   47  git config --list^c
+   48  git config --list^C
+   49  git config --global user.name "Jake Shin"
+   50  git config --global user.email "yellowman2@naver.com"
+   51  git config --list
+   52  notepad a.txt
+   53  noepad a.txt
+   54  notepad a.txt
+   55  ls -al
+   56  cd a
+   57  cd a.txt
+   58  git status
+   59  git add a.txt
+   60  git status
+   61  git rm --cached a.txt
+   62  git status
+   63  git add a.txt
+   64  git status
+   65  git commit
+   66  git status
+   67  git log
+   68  git add a.txt
+   69  git status
+   70  notepad a.txt
+   71  git status
+   72  git add a.txt
+   73  git commit
+   74  git log
+   75  pwd
+   76  git status
+   77  git restore a.txt
+   78  git status
+   79  git add bcd.txt
+   80  git commit
+   81  git log
+   82  ls -l
+   83  git status
+   84  git add/rm bcd.txt
+   85  git add*
+   86  git add *
+   87  git status
+   88  git commit -m "changed file name -> git read as file deleted and new file added"
+   89  git log
+   90  git status
+   91  git commit
+   92  git commit
+   93  git commit -a
+   94  git log
+   95  history
+   96  notepad history.txt
+   97  notepad history.txt
+   98  cd
+   99  mkdir gittest
+  100  cd gittest
+  101  git init
+  102  notepad a.txt
+  103  git commit
+  104  git add a.txt
+  105  git commit
+  106  notepad b.txt
+  107  git add b.txt
+  108  git commit
+  109  notepad b.txt
+  110  git add b.txt
+  111  git commit
+  112  git status
+  113  git log
+  114  ls -l
+  115  notepad b.txt
+  116  nano c.xt
+  117  nano c.txt
+  118  cat c.txt
+  119  cat a.txt
+  120  cat b.txt
+  121  git commit
+  122  git add c.txt
+  123  git commit
+  124  git log
+  125  nano d.txt
+  126  git status
+  127  nano c.txt
+  128  git status
+  129  git add .
+  130  git status
+  131  git commit
+  132  git status
+  133  git show
+  134  git show a.txt
+  135  git show b.txt
+  136  git show c.txt
+  137  nano c.txt
+  138  git show d.txt
+  139  git remote add origin https://github.com/mangoJakeShin/mangoworkspace.git
+  140  git branch -M main
+  141  git push -u origin main
+  142  cd
+  143  cd mygit
+  144  git branch
+  145  add branch test
+  146  git add branch test
+  147  gi bran
+  148  git branch
+  149  git branch testing
+  150  git branch
+  151  git checkout testing
+  152  git branch
+  153  ls
+  154  nano aa.txt
+  155  ls
+  156  nano c.txt
+  157  ls
+  158  ls -a
+  159  ls -l
+  160  git status
+  161  git add c.txt history.txt
+  162  git commit
+  163  git checkout master
+  164  git log
+  165  git history
+  166  history
+  167  notepad history.txt
+  168  ls -a
+  169  cd
+  170  cd gittest
+  171  ls -a
+  172  cd
+  173  ls
+  174  ls -a
+  175  cd mygit
+  176  ls-a
+  177  ls -a
+  178  nano c.txt
+  179  cd
+  180  cd gittest
+  181  ls -a
+  182  cd
+  183  git log
+  184  cd mygit
+  185  git log
+  186  cd
+  187  cd test
+  188  git log
+  189  cd
+  190  cd -a
+  191  ls -a
+  192  ls dir
+  193  ls -dir
+  194  cd
+  195  cd mygit
+  196  git branch
+  197  git merge testing
+  198  git log
+  199  notepad history.txt
+  200  git status
+  201  git log
+  202  git branch testing
+  203  git branch
+  204  git branch testing2
+  205  add ad.txt
+  206  nano ad.txt
+  207  git checkout testing2
+  208  nano addd.txt
+  209  log
+  210  git log
+  211  git commit
+  212  git add .
+  213  git commit
+  214  git checkout master
+  215  git add .
+  216  git status
+  217  git log
+  218  git merge testing2
+  219  git log
+  220  git branch
+  221  notepad history.txt
+  222  history
+  223  notepad history.txt
+  224  git status
+  225  git add history.txt
+  226  git commit
+  227  git push origin master
+  228  git pull upstream master
+  229  git remote add upstream https://github.com/mangoJakeShin/mangoworkspace
+  230  git pull upstream master
+  231  git remote add upstream https://github.com/mangoJakeShin/mangoworkspace.git
+  232  git push -u origin master
+  233  git push
+  234  git remote add upstream https://github.com/mangoJakeShin/mangoworkspace.git
+  235  git push master
+  236  git push --set-upstream master master
+  237  git log
+  238  git pull origin master
+  239  git remote add origin https://github.com/mangoJakeShin/mangoworkspace.git
+  240  git push origin master
+  241  cd
+  242  mkdir prac
+  243  cd prac
+  244  git status
+  245  cd
+  246  ssh
+  247  pwd
+  248  ssh-keygen -t rsa -C "bit"
+  249  ls -al .ssh/
+  250  cat .ssh/id_rsa
+  251  cat .ssh/id_rsa.pub
+  252  pwd
+  253  git clone git@github.com:mangoJakeShin/testing.git
+  254  ls -l
+  255  ls -l testing
+  256  ls -l mangoworkspace
+  257  cd testing
+  258  git log
+  259  git remote -v
+  260  git push -u origin main
+  261  git status
+  262  git add README.md
+  263  git commit
+  264  git push -u origin main
+  265  git clone git@github.com:mangoJakeShin/testing.git
+  266  git log
+  267  git pull origin main
+  268  git clone
+  269  git log
+  270  cd mygit
+  271  cd
+  272  cd mygit
+  273  dir
+  274  notepad history
+  275  git clone git@github.com:mangoJakeShin/mangoworkspace.git
+  276  git status
+  277  git add history.txt
+  278  git commit
+  279  git clone git@github.com:mangoJakeShin/mangoworkspace.git
+  280  git push -u origin main
+  281  history
+------------------------------------
+
+    1  dir
+    2  cd ~/Documents/
+    3  cd ~
+    4  pwd
+    5  cd ~/Downloads/
+    6  history
+    7  3
+    8  history 3
+    9  cd ~
+   10  cd ~/Downloads/
+   11  cd ~/cd ~/Downloads/
+   12  cd ;
+   13  exit
+   14  cd testing
+   15  git remote -v
+   16  git clone git@github.com:mangoJakeShin/testing.git secondclone
+   17  cd secondclone
+   18  git status
+   19  git status
+   20  git add README.MD
+   21  git commit
+   22  git status
+   23  git add README.md
+   24  git commit
+   25  git push -u origin main
+   26  git log
+   27  history
